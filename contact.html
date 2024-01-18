@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Complete My Dreams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+    <section class="contct">
+        <nav>
+        <a href="index.html"><img src="image/90.png">
+        </a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hide()" ></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="wevent.html">EVENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="show()" ></i>
+        </nav>
+        <h1>CONTACT US</h1>
+        
+        </section>
+        
+        
+        <section class="cta2">
+            <h1>Contact</h1>
+                <p>Contact us via WhatsApp</p>
+                <a href="https://wa.me/+918448065467" target="_blank" class="btn">Contact Us</a>
+            
+            </section>
+        
+        
+        
+        
+         
+        
+        
+        
+        
+        
+        <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+            <div>
+            <i class="fa fa-home"></i>
+                <span>
+                <h5>DEHRADUN</h5>
+                    <p> Uttarakhand </p>
+                </span>
+            </div>
+                  <div>
+            <i class="fa fa-phone"></i>
+                <span>
+                <h5><a href="tel:+918448065467">+91 8448065467</a> </h5>
+                    <p> 8 AM to 6 PM on all days (Including Sundays and public holidays)</p>
+                </span>
+            </div>
+                
+                
+                
+                 <div>
+            <i class="fa fa-envelope-o"></i>
+                <span>
+                    
+                <h5><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bishtneeru2021@gmail.com" target="_blank">bishtneeru2021@gmail.com</a></h5>
+                    <p> email us your query </p>
+                </span>
+            </div>
+                
+                
+            </div>
+            <div class="contact-col" >
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="number" name="mobile" placeholder="Enter your mobile number" required>
+                <input type="number" name="alternate" placeholder="Enter your alternate mobile number" >
+                <textarea rows="msg" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn red-btn">Send</button>
+                
+                </form>
+            
+            </div>
+            </div>
+        </section>
+        
+        
+        
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="footer">
+            <img src="image/90.png">
+    <p>COMPLETE MY DREAMS<br>
+        </p>
+            <div class="icons">
+                
+                <a href="https://wa.me/+918448065467" target="_blank"><i class="fa fa-whatsapp" ></i></a>
+                <a href="https://www.instagram.com/completemydream?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram"></i></a>
+                
+                </div>
+                <p class="copyright">&copy;Copyright All rights reserved.</p>
+            
+            </section>
+        
+        
+        
+        
+
+        
+        
+        
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script>
+        var navlinks=document.getElementById("navlinks");
+        function show(){
+            navlinks.style.right="0";
+            
+        }
+        function hide(){
+            navlinks.style.right="-200px";
+            
+        }
+            
+            
+            
+            
+            
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+        
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
