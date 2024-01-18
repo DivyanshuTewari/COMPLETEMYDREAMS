@@ -203,7 +203,7 @@ p{
 }
 .column{
     flex-basis: 45%;
-    background-image: linear-gradient(rgba(15, 25, 82, 0.7),rgba(12, 26, 80, 0.3)),url(image/89.JPG);
+    background-image: linear-gradient(rgba(15, 25, 82, 0.7),rgba(12, 26, 80, 0.3)),url(image/89.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -213,7 +213,7 @@ p{
 }
 .columnn{
     flex-basis: 45%;
-    background-image: linear-gradient(rgba(15, 25, 82, 0.7),rgba(12, 26, 80, 0.3)),url(image/IMG-20240111-WA0006.JPG);
+    background-image: linear-gradient(rgba(15, 25, 82, 0.7),rgba(12, 26, 80, 0.3)),url(image/IMG-20240111-WA0006.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
