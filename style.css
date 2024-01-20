@@ -275,6 +275,51 @@ h3{
 
 }
 
+.campus1{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    
+    
+    
+}
+.campus1 h1{
+    
+        color: #fff;    
+        font-size: 36px;
+        font-weight: 600;
+    
+
+}
+
+
+.campus2{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+    position: relative;
+    
+    
+    
+}
+.campus2 h1{
+    
+        color: #fff;    
+        font-size: 36px;
+        font-weight: 600;
+    
+
+}
+
+
 .campcol{
     flex-basis: 32%;
     border-radius: 10px;
