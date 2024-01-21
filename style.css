@@ -257,7 +257,7 @@ h3{
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    
+    padding-bottom: 50px;
     background-image: linear-gradient(rgba(1, 5, 29, 0.7),rgba(1, 8, 35, 0.7)),url(image/98c87491-bd7e-4a92-a080-17ff4b91376b.JPG);
     background-position: center;
     background-size: cover;
@@ -279,7 +279,7 @@ h3{
     width:100%;
     margin: auto;
     text-align: center;
-    
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 25px;
