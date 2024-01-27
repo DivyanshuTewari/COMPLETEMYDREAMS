@@ -733,8 +733,8 @@ h3{
 @media(max-width:700px)
 {
     .sub-header3{
-   min-height: 50vh;
-    width: 100%;
+   min-height: 450px;
+    width: auto;
     background-image: linear-gradient(rgba(1, 5, 29, 0.7),rgba(1, 8, 35, 0.7)),url(back.webp);
     background-position: center;
     background-size: cover;
