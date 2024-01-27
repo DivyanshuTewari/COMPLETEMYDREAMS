@@ -712,13 +712,13 @@ h3{
 
 
 .sub-header3{
-    height: 80vh;
-    width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.8)),url(back.webp);
-    background-position:center;
-    background-size:cover;
-    
-    text-align: center;
+   min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 5, 29, 0.7),rgba(1, 8, 35, 0.7)),url(back.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     text-align: center;
     color:#fff;
     
 }
