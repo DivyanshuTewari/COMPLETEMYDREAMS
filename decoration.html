@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>decoration</title>
+    <link rel="stylesheet" href="decor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+      background-image: url('bg1.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    h1{
+                text-align: center;
+                    font-size: 4em;
+                    font-family: monospace;
+    }
+    
+    
+    </style>
+</head>
+    <body>
+    <section class="sub-header2">
+        <nav>
+        <a href="index.html"><img src="90.png">
+        </a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hide()" ></i>
+            <ul>
+           
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="EVENTS.html">EVENTS</a></li>
+           
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="show()" ></i>
+        </nav>
+        <h1>DECORATION</h1>
+        
+        </section>
+        
+        
+        
+        
+        
+        <section class="about-us">
+            <div class="row2">
+                <div class="about-col">
+                <h1> DECORATION </h1>
+                
+                    <p>Decoration plays an crucial role in creating an inviting and pleasant environment. We do various type of decoration such as home ,event, or festival decoration.Our decoration adds beauty,comfort,and personality to the event.Our art of decoration is in the careful selection of element such as color,texture,and shape,which when combined ,can evoke emotion and stimulate sense.  </p>
+                    <a href="https://www.instagram.com/completemydream?igsh=N2JjcHcxOGVreGd0" target="_blank" class="btn red-btn">READ MORE</a>
+                    
+                </div>
+                
+                <div class="video-container">
+                    
+                    <video width="280" height="640" controls>
+                        <source src="vedio10.mov" type="video/mp4">
+                       
+                        
+                      </video>
+                    
+                </div>
+               
+                     
+                
+    
+        
+        </section>
+        
+    
+            <h1>Haldi And Mehndi Decoration</h1>
+            <div class="ro">
+              <div class="co">
+              <img src="bg3.jpeg">
+         
+          
+              <img src="bg2.jpeg">
+       </div>
+       <div class="co">
+              <img src="bg4.jpeg">
+          
+              <img src="bg5.jpeg">
+            </div>
+            <div class="co">
+
+              <img src="bg6.jpeg">
+            
+
+              <img src="bg7.jpeg">
+       </div>
+       <div class="co">
+              <img src="bg8.jpeg">
+          
+          
+              <img src="bg9.jpeg">
+            
+            </div>
+           
+            </div>
+            
+      
+        <section class="footer">
+            <img src="90.png">
+    <p>COMPLETE MY DREAMS<br>
+        </p>
+            <div class="icons">
+                
+                <a href="https://wa.me/+918448065467" target="_blank"><i class="fa fa-whatsapp" ></i></a>
+                <a href="https://www.instagram.com/completemydream?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram"></i></a>
+                
+                </div>
+                <p class="copyright">&copy;Copyright All rights reserved.</p>
+            
+            </section>
+            <script>
+                var navlinks=document.getElementById("navlinks");
+                function show(){
+                    navlinks.style.right="0";
+                    
+                }
+                function hide(){
+                    navlinks.style.right="-200px";
+                    
+                }
+                    
+                    
+                    
+                    
+                    
+                let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+                
+                </script>
+                
+                
+                
+                
+        
+    </body>
+</html>
