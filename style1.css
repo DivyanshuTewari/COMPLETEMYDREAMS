@@ -535,11 +535,12 @@ h3{
 }
 .feedback h1 {
     text-align: center;
+    color:white;
 
   
 }
 .feedback iframe{ 
-    margin: 50px;
+    margin: 30px;
     padding: 5px;
     text-align: center;
     width:80vw;
