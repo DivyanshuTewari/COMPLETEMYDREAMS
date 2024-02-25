@@ -533,7 +533,20 @@ h3{
 .about-col2 p{
     padding: 15px 0 25 px;
 }
+.feedback h1 {
+    text-align: center;
 
+  
+}
+.feedback iframe{ 
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+    width:80vw;
+   border: 2px solid rgb(21, 20, 20);
+ 
+   background-image:url(color.jpg);
+}
 
 
 
@@ -843,6 +856,7 @@ grid-column: span 2;
               }
             }
         }
+
 
 
 
